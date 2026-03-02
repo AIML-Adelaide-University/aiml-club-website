@@ -7,6 +7,7 @@ import About from "./pages/About"
 import Events from "./pages/Events"
 import Contact from "./pages/Contact"
 import Join from "./pages/JoinUs"
+import Links from "./pages/links"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/events" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/join" element={<Join />} />
+            <Route path="/links" element={<Links />} />
           </Routes>
         </main>
 
